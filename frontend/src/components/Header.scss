@@ -1,0 +1,60 @@
+.header-area {
+  font-family: "Space Grotesk", serif !important;
+  background-color: #f7f9fc;
+  padding: 10px;
+  border-radius: 5px;
+  color: #1a202c;
+
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .icons {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      // color: #ff6f61;
+      .cart-icon,
+      .user-icon {
+        display: flex;
+        align-items: center;
+        gap: 3px;
+      }
+    }
+    .menu-button {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header-area {
+    .header-content {
+      .icons {
+        display: none;
+      }
+      .menu-button {
+        display: block;
+      }
+    }
+  }
+}
+
+// @media (max-width: 768px) {
+//   .desktop-menu,
+//   .search-input {
+//     display: none;
+//   }
+//   .menu-button {
+//     display: block;
+//   }
+//   .header-content {
+//     justify-content: space-between;
+//   }
+// }

@@ -1,0 +1,91 @@
+.product-details {
+  padding: 40px 20px;
+  // background-color: #f7f9fc;
+
+  .image-gallery {
+    text-align: center;
+
+    .main-image {
+      max-width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  .product-info {
+    .product-name {
+      font-family: "Space Grotesk", serif !important;
+      color: #1a202c;
+    }
+
+    .product-rating {
+      color: #ffd700;
+    }
+
+    .reviews-count {
+      font-family: "Space Grotesk", serif !important;
+      font-size: 14px;
+      color: #6b7280;
+    }
+
+    .product-price {
+      font-family: "Space Grotesk", serif !important;
+      color: #4caf50;
+      margin-top: 16px;
+    }
+
+    .stock-status {
+      font-family: "Space Grotesk", serif !important;
+      margin: 16px 0;
+      font-size: 14px;
+      padding: 5px 10px;
+      border-radius: 4px;
+      // text-transform: uppercase;
+
+      &.ant-tag-green {
+        background-color: #e6ffed;
+        color: #389e0d;
+      }
+
+      &.ant-tag-red {
+        background-color: #fff1f0;
+        color: #cf1322;
+      }
+    }
+
+    .product-description {
+      font-family: "Space Grotesk", serif !important;
+      color: #374151;
+      margin: 20px 0;
+    }
+
+    .actions {
+      display: flex;
+      gap: 16px;
+      margin-top: 20px;
+
+      .quantity-selector {
+        width: 100px;
+      }
+
+      button {
+        font-family: "Space Grotesk", serif !important;
+        background-color: #3b82f6;
+        border-color: #3b82f6;
+        color: #ffffff;
+
+        &:hover {
+          background-color: #2563eb;
+          border-color: #2563eb;
+        }
+      }
+    }
+  }
+
+  .product-tabs {
+    margin-top: 40px;
+    .ant-tabs-nav {
+      margin-bottom: 16px;
+    }
+  }
+}

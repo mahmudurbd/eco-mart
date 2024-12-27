@@ -1,0 +1,64 @@
+.footer-container {
+  background-color: #f7f9fc; // Light grayish blue
+  color: #1a202c; // Dark gray/black
+  padding: 40px 20px;
+
+  .footer-top {
+    font-family: "Space Grotesk", serif !important;
+    border-bottom: 1px solid #e5e7eb; // Light gray border
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+    h3,
+    h4 {
+      color: #1a202c;
+      font-family: "Space Grotesk", serif !important;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 1.6;
+      margin: 10px 0;
+      font-family: "Space Grotesk", serif !important;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        margin: 5px 0;
+
+        a {
+          color: #1a202c;
+          text-decoration: none;
+          font-family: "Space Grotesk", serif !important;
+
+          &:hover {
+            color: #3b82f6; // Highlight on hover
+          }
+        }
+      }
+    }
+
+    .social-icons {
+      display: flex;
+      gap: 10px;
+
+      a {
+        font-size: 20px;
+        color: #1a202c;
+
+        &:hover {
+          color: #4caf50; // Green highlight
+        }
+      }
+    }
+  }
+
+  .footer-bottom {
+    text-align: center;
+    font-size: 14px;
+    color: #606770; // Muted gray
+  }
+}

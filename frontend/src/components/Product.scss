@@ -1,0 +1,36 @@
+.product-card {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  text-align: center;
+
+  .ant-card-cover {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+
+  .product-name {
+    font-size: 18px;
+    font-weight: 500;
+    color: #1a202c;
+    margin: 10px 0 5px;
+  }
+
+  .product-price {
+    font-size: 16px;
+    color: #4caf50;
+    margin-bottom: 10px;
+  }
+
+  button {
+    background-color: #3b82f6;
+    border-color: #3b82f6;
+    color: #ffffff;
+    border-radius: 4px;
+
+    &:hover {
+      background-color: #2563eb;
+      border-color: #2563eb;
+    }
+  }
+}
